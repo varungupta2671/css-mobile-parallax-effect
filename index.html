@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        .bg-red {
+            background: #dd4444;
+        }
+        
+        .bg-green {
+            background: #44dd44;
+        }
+        
+        .bg-pink {
+            background: pink;
+        }
+        
+        .bg-orange {
+            background: orange;
+        }
+        
+        .bg-yellow {
+            background: yellow;
+        }
+        
+        .section {
+            text-align: center;
+            padding: 30% 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .image {
+            position: fixed;
+            left: 50%;
+            transform: translate(-50%);
+            top: 70px;
+            height: 100%;
+        }
+        
+        .image img {
+            max-height: 75%;
+        }
+        
+        .clip {
+            clip: rect(auto, auto, auto, auto);
+            height: 100%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        
+        .sliding-content h2:first-child {
+            float: left;
+        }
+        
+        .sliding-content h2:last-child {
+            float: right;
+        }
+        
+        h2 {
+            color: #ffffff;
+        }
+        
+        .img-content {
+            position: absolute;
+            left: 0;
+            width: 80%;
+            padding: 10%;
+            top: 100px;
+            height: 53%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-column">
+            <h1>This Is Top Column</h1>
+        </div>
+        <div class="section bg-red">
+            <div class="clip">
+                <div class="image">
+                    <h2>Section 1</h2>
+                    <img src="android.png" />
+                    <img class="img-content" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/360px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg" />
+                </div>
+            </div>
+            <div class="sliding-content">
+                <h2>IM Sliding TEXT</h2>
+                <h2>wooooooeeeeeeeee</h2>
+            </div>
+        </div>
+        <div class="section bg-green">
+            <div class="clip">
+                <div class="image">
+                    <h2>Section 2</h2>
+                    <img src="iphone.png" />
+                    <img class="img-content" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tour_Eiffel_le_sommet_08-2015_%28cropped%29.jpg/170px-Tour_Eiffel_le_sommet_08-2015_%28cropped%29.jpg" />
+                </div>
+            </div>
+            <div class="sliding-content">
+                <h2> Helloooo</h2>
+                <h2>Yu Hu</h2>
+            </div>
+        </div>
+        <div class="section bg-pink">
+            <div class="clip">
+                <div class="image">
+                    <h2>Section 3</h2>
+                    <img src="android.png" />
+                    <img class="img-content" src="https://c8.alamy.com/comp/M8CB08/view-of-the-sydney-tower-also-known-as-westfield-centrepoint-or-the-M8CB08.jpg" />
+                </div>
+            </div>
+            <div class="sliding-content">
+                <h2> My Turn</h2>
+                <h2>Yeepieee</h2>
+            </div>
+        </div>
+        <div class="section bg-orange">
+            <div class="clip">
+                <div class="image">
+                    <h2>Section 4</h2>
+                    <img src="iphone.png" />
+                    <img class="img-content" src="https://c8.alamy.com/comp/CC8WKT/sydney-tower-eye-and-cbd-buildings-CC8WKT.jpg" />
+                </div>
+            </div>
+            <div class="sliding-content">
+                <h2> IM Here</h2>
+                <h2>huuulalalal</h2>
+            </div>
+        </div>
+        <div class="section bg-yellow">
+            <div class="clip">
+                <div class="image">
+                    <h2>Section 5</h2>
+                    <img src="android.png" />
+                    <img class="img-content" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/360px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg" />
+                </div>
+            </div>
+            <div class="sliding-content">
+                <h2>Im last One</h2>
+                <h2>But not the least one</h2>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>Footer</footer>
+        </div>
+    </div>
+</body>
+
+</html>
